@@ -1,0 +1,377 @@
+body {
+    background: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: #6C63D3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+    background: #FF6A42;
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header {
+    color: #FFFFFF;
+    background: #445768;
+}
+
+#logo {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #FFFFFF;
+    display: block;
+    padding: 15px 10px;
+}
+
+
+#menu li a:hover {
+    background: #FF683E;
+}
+
+#banner {
+    background-size: cover;
+    background: url('data/sunrise-1756274_1920.jpg') no-repeat -150px -150px;
+}
+
+.banner-title {
+    padding-top: 5rem;
+}
+
+.banner-title h1 {
+    background: rgba(225, 225, 225, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background: rgba(231, 76, 60, 0.27);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+    background: lightgray;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    height: 95%;
+}
+
+.service-box,
+.fa {
+    color: hotpink;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 20px;
+    color: black;
+}
+
+.service-box h3 {
+    color: dodgerblue;
+}
+
+#testimonial {
+    color: #fff;
+    background: url(data/BooksKnowlage.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+    height: 20%;
+}
+
+#testimonial:before {
+    background: rgba(52, 78, 95, .81);
+    content: "";
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.15);
+    margin: 5px auto;
+}
+
+.testimonial .fa {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.auther {
+    font-weight: 800;
+    font-style: block;
+}
+
+.testimonial p {
+    height: 100px;
+    font-size: 1.5rem;
+    font-family: Snell Roundhand, cursive;
+    padding-top: 20px;
+}
+
+#videos {
+    margin: 10px;
+    padding: 10px;
+}
+
+#videos p {
+    text-align: center;
+
+}
+
+
+.news-post {
+    height: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background: #bdfdff;
+    box-shadow: 4px 4px 8px 2px dimgray;
+    transition: .4s;
+}
+
+.news-post:hover {
+    box-shadow: 0 0 4px 1px #ccc;
+}
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 {
+    font-size: 1rem;
+
+}
+
+.news-post p {
+    font-size: 15px;
+}
+
+.news-post h3 a {
+    font-size: 2rem;
+    color: #FF927B;
+}
+
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.post-date:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+.learnmore {
+    color: #fff;
+    font-size: 20px;
+    background: #3A9EFF;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.learnmore:after {
+    content: "\f101";
+    padding-left: 5px;
+    font-family: FontAwesome;
+}
+
+.social-info {
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+.social-icons {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.social-icons a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #ddd, #fff);
+    padding: 6px;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.social-icons ul li:nth-child(1) .fa:hover {
+    color: #004dfc;
+}
+
+.social-icons ul li:nth-child(2) a .fa:hover {
+    color: #FF3F3F;
+}
+
+.social-icons ul li:nth-child(3) a .fa:hover {
+    color: deepskyblue;
+}
+
+.social-icons ul li:nth-child(4) a .fa:hover {
+    color: #17d727;
+}
+
+.social-icons ul li:nth-child(5) a .fa:hover {
+    color: #FF1616;
+}
+
+.social-icons a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #fff, #ddd);
+    line-height: calc(60px - 20px);
+    font-size: 24px;
+    transition: .3s;
+    color: #000;
+}
+
+#footer {
+    background: #17202A;
+}
+
+#social-footer {
+    justify-content: left;
+}
+
+#social-footer a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.hrztl-line {
+    border: none;
+    background: lightgray;
+    height: 1px;
+}
+
+
+.NewsBlog {
+    font-size: 1.5rem;
+}
+
+.enquiry {
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+input {
+    color: whitesmoke;
+    background: gray;
+    border: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+textarea {
+    border: none;
+}
+
+.fname {
+    width: 48%;
+}
+
+.lname {
+    width: 48%;
+}
+
+.email,
+.phone {
+    width: 98%;
+}
+
+.btn {
+    border: 1px solid slategray;
+}
+
+.textarea {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#social-footer .fa {
+    font-size: 30px;
+}
+
+#footer i {
+    font-size: 10px;
+    padding: 0;
+}
