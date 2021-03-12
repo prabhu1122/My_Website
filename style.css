@@ -88,9 +88,8 @@ a:hover {
     height: 95%;
 }
 
-.service-box,
-.fa {
-    color: hotpink;
+.service-box,.fa {
+    color: royalblue;
     font-size: 70px;
     margin-bottom: 15px;
 }
