@@ -1,9 +1,115 @@
-body {
-    background: #fff;
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+ 
+body{
+    font-style: montserrat;
 }
 
-a:hover {
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: whitesmoke;
+    font-size: 15px;
+    line-height:80px;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-size: 10px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
     text-decoration: none;
+}
+
+a.active, a:hover{
+    color: white;
+    background: #1b9bff;
+    text-decoration: none;
+    transition: .5s;
+}
+.checkbtn{
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+    line-height: 90px;
+}
+
+.checkbtn i{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: none;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        top: -100%;
+        text-align: center;
+        transition:all .5s;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    
+    nav ul li a{
+        font-size: 10px;
+    }
+    a:hover ,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        top: 13%;
+    }
 }
 
 .section {
@@ -24,37 +130,6 @@ a:hover {
     width: 150px;
     height: 3px;
     margin: 20px auto;
-}
-
-#header {
-    color: #FFFFFF;
-    background: #445768;
-}
-
-#logo {
-    font-size: 2rem;
-    margin-top: 5px;
-}
-
-#menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#menu li {
-    display: inline-block;
-}
-
-#menu li a {
-    color: #FFFFFF;
-    display: block;
-    padding: 15px 10px;
-}
-
-
-#menu li a:hover {
-    background: #FF683E;
 }
 
 #banner {
@@ -151,13 +226,12 @@ a:hover {
 #videos {
     margin: 10px;
     padding: 10px;
+
 }
 
 #videos p {
-    text-align: center;
-
+    text-align: center
 }
-
 
 .news-post {
     height: 100%;
@@ -166,7 +240,7 @@ a:hover {
     background: #bdfdff;
     box-shadow: 4px 4px 8px 2px dimgray;
     transition: .4s;
-}
+} 
 
 .news-post:hover {
     box-shadow: 0 0 4px 1px #ccc;
@@ -210,6 +284,12 @@ a:hover {
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: 4px 4px 8px 1px dimgrey;
+    transition: .5s;
+}
+
+.learnmore:haver{
+    box-shadow: 0 0 1px 1px #ccc;
 }
 
 .learnmore:after {
@@ -316,19 +396,15 @@ ul li {
     font-size: 1.5rem;
 }
 
-.enquiry {
+.enquiry-btn {
     color: white;
     border: 1px solid whitesmoke;
 }
-
 
 input {
     padding: 10px;
     margin: 5px;
     font-size: 10px;
-}
-
-input {
     color: whitesmoke;
     background: gray;
     border: none;
