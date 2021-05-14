@@ -134,7 +134,7 @@ a.active, a:hover{
 
 #banner {
     background-size: cover;
-    background: url('data/sunrise-1756274_1920.jpg') no-repeat -150px -150px;
+    background: url('../img/sunrise-1756274_1920.jpg') no-repeat -150px -150px;
 }
 
 .banner-title {
@@ -180,7 +180,7 @@ a.active, a:hover{
 
 #testimonial {
     color: #fff;
-    background: url(data/BooksKnowlage.jpg) no-repeat 0 0;
+    background: url(../img/BooksKnowlage.jpg) no-repeat 0 0;
     background-size: cover;
     padding: 0;
     position: relative;
